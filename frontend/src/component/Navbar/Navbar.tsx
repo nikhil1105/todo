@@ -13,11 +13,11 @@ function Navbar() {
 
   return (
     <nav className='main'>
-        <Link className='link' to='/'><h1 className='link'>AuthDB</h1></Link>
+        <Link className='link' to='/'><h1 className='link'>Home</h1></Link>
         <ul className='main'>
             {isUserSignedIn ? (
                 <>
-                <Link className='link' to='/todo'><li>Account</li></Link>
+                <Link className='link' to='/todo'><li>TODO</li></Link>
                 <li><button onClick={handleSignOut}>Sign Out</button></li>
                 </>
             ) : (
