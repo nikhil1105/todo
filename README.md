@@ -2,6 +2,7 @@
 
 clone repo from git 
 git clone <repository_url>
+cd todo
 
 frontend setup : - 
 
