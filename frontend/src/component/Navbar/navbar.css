@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    margin:px;
+    justify-content: start;
+    align-items: center;
+    color: white;
+
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin:10px ;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+h1{
+    margin:10px ;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
