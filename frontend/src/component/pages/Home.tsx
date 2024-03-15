@@ -4,7 +4,9 @@ function Home() {
   return (
     <div>
       Home page 
+      <p>Login to view todo</p>
     </div>
+
   )
 }
 
